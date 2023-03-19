@@ -1,6 +1,6 @@
 # api-template
 
-<h3>Laravel API based template for backend with admin panel</h3>
+<h3>Laravel API based template for backend with Admin panel(<a href="https://adminlte.io">AdminLTE-3</a>)</h3>
 
 ## What is it
 This is a starter kit for your next API using Laravel, implemented with more than one structure, all battle-tested with the same features listed below.
