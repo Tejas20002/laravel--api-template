@@ -11,21 +11,21 @@ This is a starter kit for your next API using Laravel, implemented with more tha
 - Passport for OAuth2
 - migration of user
 - curd of user with token (Coming Soon)
-- Login 
+- Login with google
+- Register with google
+- Login ( Coming Soon )
 - Register
-- Login with google (Coming Soon)
-- Register with google (Coming Soon)
 - Password Reset (Coming Soon)
 
 ## Setup Project
 Clone the repo(https)
 ```
-git clone https://github.com/Tejas20002/api-template.git
+git clone git@github.com:Tejas20002/laravel--api-template.git api-template
 cd api-template
 ```
 Clone the repo(ssh)
 ```
-git clone git@github.com:Tejas20002/api-template.git
+git clone git@github.com:Tejas20002/laravel--api-template.git api-template
 cd api-template
 ```
 Composer install for vendor folder
