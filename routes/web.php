@@ -16,11 +16,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->to('login');
 });
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/google/callback', [AuthController::class, 'loginWithGoogle'])->name('login-with-google');
-Route::get('/login', [AuthController::class, 'redirectToGoogle'])->name('login-with-google-redirect');
+Route::get('google/login', [AuthController::class, 'redirectToGoogle'])->name('login-with-google-redirect');
