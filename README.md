@@ -10,12 +10,11 @@ This is a starter kit for your next API using Laravel, implemented with more tha
 - Admin Panel (using <a href="https://adminlte.io">AdminLTE-3</a>)
 - Passport for OAuth2
 - migration of user
-- curd of user with token (Coming Soon)
 - Login with google
 - Register with google
-- Login ( Coming Soon )
+- Login
 - Register
-- Password Reset (Coming Soon)
+- Password Reset
 
 ## Setup Project
 Clone the repo(https)
